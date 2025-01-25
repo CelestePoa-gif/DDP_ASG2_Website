@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+<body>
+    <header>
+         <!-- logo -->
+        <div class="logo"><a href="index.html">
+            <img src="img/logo.png" alt="logo"/></a>
+        </div>
+         <!-- navigation -->
+        <nav >
+            <div class="hamburger" id="hamburger"><a href="#" onclick="toggle()"><i class="fa-solid fa-bars"></i></a></div>
+            <ul class="menu" id="menu">
+                <li>
+                  <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="Bus.html">Bus</a>
+                </li>
+                <li>
+                    <a href="Contact.html"> Contact</a>
+                </li>
+                <li>
+                    <a href="About.html"> About</a>
+                </li>
+                 <!-- header icons -->
+                <div class="icons">
+                    <a href="#"><i class="fa-solid fa-user"></i></a>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <section class="back_btn">
+        <a href="arrival.html" class="back_btn"><i class="fa-solid fa-arrow-left"></i> Back</a>
+    </section>
+    <section class="bus_routes">
+        <h2>12101 Bus Routes</h2>
+        <div class="route_img">
+            <img src="img/route_img.png" alt="Bus_routes">
+
+        </div>
+        <div id="bus-info-container">
+            <h3>Bus Service Information</h3>
+            <div id="bus-list"></div>
+        </div>
+    </section>
+    </main>
+
+    <footer>   
+        <div class="footer-row">
+            <div class="footer-col">
+              <div class="footer-img">
+                <img src="img/logo.png"alt="Notification"/>
+              </div>
+            </div>
+            <div class="footer-col">
+              <div class="footer-nav">
+                <nav>
+                    <ul>
+                        <li>
+                          <a href="#" class="nav-btn">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-btn">Feedback</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-btn">Help</a>
+                        </li>
+                    </ul>
+                </nav>
+              </div>
+              </div>
+            </div>
+        </div>
+    
+    </footer>
+    <section class = "media-text">
+        <p>© ALL RIGHTS RESERVED.</p>
+    </section>
+    
+
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/bus_arrival.js"></script>
+</body>
+</html>
